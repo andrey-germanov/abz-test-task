@@ -4,7 +4,6 @@ import {
   Radio,
   RadioChangeEvent,
 } from "antd";
-import { ValidateErrorEntity } from "rc-field-form/lib/interface";
 import React, { useEffect, useState } from "react";
 import { SuccessRegister } from "../SuccessRegister";
 import s from "./Form.module.scss";
@@ -122,7 +121,7 @@ export const Forms = () => {
               message: <div className={s.customError}>Phone number is required!</div>,
             },
             {
-              pattern: /^[\+]{0,1}380([0-9]{9})$/,
+              pattern: /^[+]{0,1}380([0-9]{9})$/,
               message: <div className={s.customError}>Wrong phone number format!</div>,
             },
           ]}

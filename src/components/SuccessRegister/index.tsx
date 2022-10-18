@@ -1,4 +1,4 @@
-import success from '../../images/success-image.png'
+import success from '../../images/success-image.webp'
 import s from './SuccessRegister.module.scss';
 
 export const SuccessRegister = () => {

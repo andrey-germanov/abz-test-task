@@ -1,5 +1,4 @@
 import 'antd/dist/antd.css';
-import './App.css';
 import { Header } from './components/Header';
 import { Users } from './components/Users';
 import { Forms } from './components/Form';

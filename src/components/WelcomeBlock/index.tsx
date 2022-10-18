@@ -1,6 +1,4 @@
-import React from 'react'
 import s from './WelcomeBlock.module.scss'
-import background from './welcomeBlock.jpg'
 
 export const WelcomeBlock = () => {
   return (

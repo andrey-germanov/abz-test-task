@@ -6,6 +6,10 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+.App {
+  text-align: center;
+  margin: 0 auto;
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
@@ -34,16 +38,16 @@ code {
   font-weight: 400;
   font-size: 12px;
   line-height: 14px;
-  color: #7E7E7E!important;
+  color: #7e7e7e !important;
 }
-.ant-input-affix-wrapper{
-  padding: 0px 16px!important;
+.ant-input-affix-wrapper {
+  padding: 0px 16px !important;
 }
-.ant-form-item-explain-error{
+.ant-form-item-explain-error {
   font-weight: 400;
   font-size: 12px;
   line-height: 14px;
-  color: #CB3D40;
+  color: #cb3d40;
   display: flex;
   padding-left: 16px;
 }
