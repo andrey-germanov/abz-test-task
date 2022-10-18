@@ -13,7 +13,7 @@ export const Header = () => {
         <div className={s.logoWrapper}><img src={logo} alt="" />TESTTASK</div>
         <div>
             <Profile />
-            <button>Users</button>
+            <a href="#users">Users</a>
             {!isAuthenticated ? <LoginButton/> : <LogoutButton/>}
         </div>
       </div>

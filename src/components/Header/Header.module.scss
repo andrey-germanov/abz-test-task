@@ -3,16 +3,26 @@
   align-items: center;
   height: 60px;
 
-  button {
+  button,a {
     width: 100px;
     height: 34px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    font-size: 16px;
+    line-height: 26px;
 
     border: none;
     border-radius: 80px;
+    
     background: #f4e041;
-
+    color: rgba(0, 0, 0, 0.87);
+    
     &:hover {
       cursor: pointer;
+      color: rgba(0, 0, 0, 0.87);
 
       background: #ffe302;
     }

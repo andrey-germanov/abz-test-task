@@ -45,7 +45,7 @@ export const Users = () => {
   };
 
   return (
-    <div className={s.wrapperUsers}>
+    <div id="users" className={s.wrapperUsers}>
       <h2>Working with GET request</h2>
       {renderUsers()}
       <div>
