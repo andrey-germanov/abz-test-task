@@ -57,7 +57,7 @@ export const getUsers = (
   countUsers: number
 ) => {
   fetch(
-    `https://frontend-test-assignment-api.abz.agency/api/v1/users?offset=1&count=${countUsers}`
+    `https://frontend-test-assignment-api.abz.agency/api/v1/users?offset=0&count=${countUsers}`
   )
     .then((response) => {
       return response.json();
