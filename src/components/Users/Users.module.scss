@@ -1,0 +1,88 @@
+.wrapperUsers {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 auto;
+  max-width: 1170px;
+  margin-top: 140px;
+
+  gap: 29px;
+
+  > div:last-child {
+    width: 100%;
+  }
+
+  .userCard {
+    width: 370px;
+    max-width: 370px;
+    padding: 20px;
+
+    border-radius: 10px;
+    background-color: white;
+
+    img {
+      border-radius: 50%;
+    }
+
+    p {
+      margin: 20px 0;
+    }
+    a {
+      color: inherit;
+      &:hover{
+        color: inherit;
+        
+      }
+    }
+    * {
+      word-break: break-all;
+    }
+  }
+
+  h2 {
+    width: 100%;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 40px;
+  }
+
+  button {
+    width: 100px;
+    height: 34px;
+    margin: 0 auto;
+
+    border: none;
+    border-radius: 80px;
+    background: #f4e041;
+
+    &:hover {
+      cursor: pointer;
+
+      background: #ffe302;
+    }
+  }
+  @media (max-width: 1440px) {
+    .userCard{
+      width: 282px;
+      max-width: 282px;
+    }
+  }
+  @media (max-width: 768px) {
+    .userCard{
+      width: 344px;
+      max-width: 344px;
+    }
+    gap: 16px;
+
+  }
+  @media (max-width: 425px) {
+    .userCard{
+      width: 328px;
+      max-width: 328px;
+    }
+    h2{
+      padding: 0 28px;
+    }
+    gap: 20px;
+  }
+}

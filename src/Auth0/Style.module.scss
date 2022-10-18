@@ -1,0 +1,16 @@
+.userInfo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    img{
+        width: 30px;
+        border-radius: 1000px;
+    }
+    h2,p{
+        display: block;
+    }
+    @media (max-width: 424px) {
+        display: none;
+    }
+}

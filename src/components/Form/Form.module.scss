@@ -1,0 +1,129 @@
+.singUpForm {
+  max-width: 380px;
+  
+  padding-bottom: 100px;
+
+  margin: 0 auto;
+  input {
+    height: 54px;
+
+    border: 1px solid #d0cfcf;
+
+    background: transparent;
+    &::placeholder {
+      color: #7e7e7e;
+    }
+  }
+
+  .blockPosition {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    
+    margin: 25px 0 26px 0;
+    > span {
+      margin-bottom: 4px;
+    }
+    > div {
+      display: flex;
+      flex-direction: column;
+
+      > span {
+        margin-bottom: 11px;
+      }
+      > label {
+        margin-bottom: 4px;
+      }
+    }
+  }
+
+  button {
+    background: #b4b4b4;
+
+    width: 100px;
+    height: 34px;
+
+    border: none;
+    border-radius: 80px;
+    color: rgba(255, 255, 255, 0.87);
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+
+  .wrapperInputFile {
+    width: 380px;
+    max-width: 100%;
+    height: 54px;
+
+    border: 1px solid #d0cfcf;
+    border-radius: 4px 0px 0px 4px;
+
+    &::after {
+      font-size: 16px;
+
+      position: absolute;
+      top: 13px;
+      left: 100px;
+
+      content: "Upload your photo";
+
+      color: #7e7e7e;
+    }
+
+    label {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      width: 83px;
+      height: 100%;
+
+      border: 1px solid black;
+      border-radius: 4px 0px 0px 4px;
+    }
+  }
+
+  .inputPhone {
+    .ant-form-item-explain-error {
+      margin-top: 20px;
+    }
+  }
+  .customError {
+    position: absolute;
+    bottom: -10px;
+  }
+  .successUploadFile {
+    border: 1px solid #22ed22 !important;
+  }
+
+  @media (max-width: 425px) {
+    padding: 0 16px 100px;
+  }
+}
+
+.singUpFormTitle {
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 40px;
+
+  margin: 140px 0 50px;
+
+  color: rgba(0, 0, 0, 0.87);
+
+  @media (max-width: 425px) {
+    padding: 0 16px;
+  }
+}
+.errorByServer {
+  display: block;
+
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+
+  color: #ff4d4f;
+
+  padding-bottom: 16px;
+}

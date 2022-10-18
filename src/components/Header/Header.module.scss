@@ -1,0 +1,49 @@
+.header {
+  display: flex;
+  align-items: center;
+  height: 60px;
+
+  button {
+    width: 100px;
+    height: 34px;
+
+    border: none;
+    border-radius: 80px;
+    background: #f4e041;
+
+    &:hover {
+      cursor: pointer;
+
+      background: #ffe302;
+    }
+  }
+
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    max-width: 1170px;
+    width: 1170px;
+    margin: 0 auto;
+
+    div:last-child {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+  }
+  .logoWrapper{
+    display: flex;
+    align-items: center;
+  }
+  @media (max-width: 1440px) {
+    padding: 0 60px;
+  }
+  @media (max-width: 768px) {
+    padding: 0 32px;
+  }
+  @media (max-width: 425px) {
+    padding: 0 16px;
+  }
+}

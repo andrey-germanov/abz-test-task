@@ -1,0 +1,40 @@
+.welcomeBlock {
+    position: relative;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
+    height: 650px;
+    max-width: 1170px;
+    margin: 0 auto;
+
+    background-image: url('../../images/welcomeBlock.jpg');
+    h2,
+    h5 {
+        max-width: 380px;
+        margin: 0 auto;
+
+        color: white;
+    }
+
+    h2 {
+        font-size: 40px;
+        font-weight: 400;
+        line-height: 40px;
+        margin-bottom: 21px;
+    }
+
+    h5 {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;
+    }
+    @media (max-width: 1024px) {
+        height: 500px;
+    }
+    @media (max-width: 425px) {
+        padding: 0 16px;
+    }
+}
