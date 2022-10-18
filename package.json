@@ -23,8 +23,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "qwer": "sass sass/style.scss:css/style.min.css --style compressed"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
